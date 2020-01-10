@@ -30,7 +30,7 @@ ALLOWED_HOSTS = [os.environ.get('HOSTNAME')]
 
 host = os.environ.get('SITE_HOST')
 if host:
-    ALLOWED_HOSTS.append(HOST)
+    ALLOWED_HOSTS.append(host)
 
 
 # Application definition
